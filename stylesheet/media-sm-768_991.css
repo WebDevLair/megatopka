@@ -1,0 +1,57 @@
+/* ШАПКА (верхняя часть) 
+=====================================================================================*/
+@media (min-width: 768px) and (max-width: 991px){
+	.b-phone__nummber			{font-size: 16px;} /* Телефонный номер */
+	.b-phone__back-call			{font-size: 16px;} /* Перезвонить мне */
+	.b-logo__desc				{font-size: 16px; font-weight: 300; margin-bottom: 0;} /* Подпись под логотипом */
+	.b-navigation__address		{font-size: 16px} /* Адрес компании */
+
+	.header-menu__list			{width: 100%;} /* Выпадающее меню */
+}
+
+
+/* ТАБЛИЦА ТОВАРОВ
+=====================================================================================*/
+@media (min-width: 768px) and (max-width: 991px){
+	.wrapp-table-line{
+		height: auto;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	/* Описание продукта */
+	.product-title-box			{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-title-tag			{display: block; vertical-align: middle;  display: table-cell; height: 80px;}
+		.title-tag__tag			{margin-top: 5px;}
+
+	/* Мощность и площадь */
+	.power-and-area-box			{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-power-and-area		{display: block; vertical-align: middle; display: table-cell; height: 50px;}
+
+	/* Напряжение */
+	.voltage-box				{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-voltage				{display: block; vertical-align: middle; display: table-cell; height: 50px;}
+
+	/* Цена */
+	.price-box					{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-price				{display: block; vertical-align: middle; display: table-cell; height: 50px;}
+
+	/* Кнопка купить */
+	.buy-box					{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-buy					{display: block; vertical-align: middle; display: table-cell; height: 50px;}
+	
+}
+
+
+/* КОРЗИНА (выпадающая)
+=====================================================================================*/
+@media (min-width: 768px) and (max-width: 991px){
+/*	.title-tag__title			{font-weight: 400;}*/
+}
+
+
+/* СЛАЙДЕР КОНТЕНТА 
+=====================================================================================*/
+@media (min-width: 768px) and (max-width: 991px){
+	.home-carrousel-prev		{right: 15px;}
+	.home-carrousel-next		{left: 15px;}
+}

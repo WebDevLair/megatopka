@@ -1,0 +1,17 @@
+/* ШАПКА (верхняя часть) 
+=====================================================================================*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.b-phone__nummber			{font-size: 16px;} /* Телефонный номер */
+	.b-phone__back-call			{font-size: 16px;} /* Перезвонить мне */
+	.b-logo__desc				{font-size: 16px; font-weight: 300; margin-bottom: 0;} /* Подпись под логотипом */
+	.b-navigation__address		{font-size: 16px} /* Адрес компании */
+
+	.header-menu__list			{width: 100%;} /* Выпадающее меню */
+}
+
+/* СЛАЙДЕР КОНТЕНТА 
+=====================================================================================*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.home-carrousel-prev		{right: 15px;}
+	.home-carrousel-next		{left: 15px;}
+}

@@ -1,0 +1,116 @@
+/* BOOTSTRAP VS 320px
+=====================================================================================*/
+@media (max-width: 320px){
+.col-vs-1, .col-vs-2, .col-vs-3, .col-vs-4, .col-vs-5, .col-vs-6, .col-vs-7, .col-vs-8, .col-vs-9, .col-vs-10, .col-vs-11, .col-vs-12 {position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px;float: left;}
+.col-vs-12						{width: 100%;}
+.col-vs-11						{width: 91.66666667%;}
+.col-vs-10						{width: 83.33333333%;}
+.col-vs-9						{width: 75%;}
+.col-vs-8						{width: 66.66666667%;}
+.col-vs-7						{width: 58.33333333%;}
+.col-vs-6						{width: 50%;}
+.col-vs-5						{width: 41.66666667%;}
+.col-vs-4						{width: 33.33333333%;}
+.col-vs-3						{width: 25%;}
+.col-vs-2						{width: 16.66666667%;}
+.col-vs-1						{width: 8.33333333%;}
+
+.hidden-vs						{display: none;}
+}
+
+/* HEADER 
+=====================================================================================*/
+@media (max-width: 320px){
+	.header						{min-height: auto;} 
+}
+
+
+
+/* ШАПКА (верхняя часть) 
+=====================================================================================*/
+@media (max-width: 320px){
+	.b-phone						{text-align: center;} /* Блок телефона и ссылки "Перезвонить мне" */
+	.b-phone__nummber				{font-size: 20px; text-align: center;} /* Телефонный номер */
+	.b-phone__back-call				{font-size: 20px; text-align: center; display: inline; padding: 0;} /* Перезвонить мне */
+	.b-navigation__address			{font-size: 20px; text-align: center; margin-bottom: 0;} /* Адрес компании */
+	
+	.b-logo							{text-align: center;}
+		.b-logo > a 				{display: block;}
+		.logo						{margin: 0 auto;} /* Изображение логотипа */
+	.b-logo__desc					{font-size: 24px; font-weight: 300; margin-bottom: 0;} /* Подпись под логотипом */
+	.header-menu					{margin-top: 0;}
+
+	.open-navigaton					{margin-top: 20px;} /* Кнопка гамбургер */
+	.header-menu__list				{width: 100%;} /* Выпадающее меню */
+}
+
+/* ШАПКА (Каталог, поиск, корзина) 
+=====================================================================================*/
+@media (max-width: 320px){
+	/* Прилипающее меню */
+	.header-navbar					{position: static!important;} /* Блок */
+	.catalog						{}
+	.search							{}
+	.cart							{}
+}
+
+/* КОРЗИНА (выпадающая)
+=====================================================================================*/
+@media (max-width: 320px) {
+	.cart-inner						{width: 100%; left: 0;}
+}
+
+/* ТЕПЛОВОЕ ОБОРУДОВАНИЕ В АССОРТИМЕНТЕ (Коричневые ссылки)
+=====================================================================================*/
+@media (max-width: 320px){
+	.onpage-categories__item 		{margin-left: 0; margin-right: 0;}
+}
+
+
+/* ТАБЛИЦА ТОВАРОВ
+=====================================================================================*/
+@media (max-width: 320px){
+	.figure-product-img				{max-width: 150px; margin: 15px auto 15px;} /* Изображение товара */
+
+	/* Описание продукта */
+	.product-title-box				{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-title-tag				{display: block; vertical-align: middle;  display: table-cell; height: 80px;}
+		.title-tag__tag				{margin-top: 5px;}
+
+	/* Мощность и площадь */
+	.power-and-area-box				{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-power-and-area			{display: block; text-align: right; vertical-align: middle; display: table-cell; height: 30px;}
+
+	/* Напряжение */
+	.voltage-box					{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-voltage					{display: block; vertical-align: middle; display: table-cell; height: 30px;}
+
+	/* Цена */
+	.price-box						{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-price					{display: block; text-align: right; vertical-align: middle; display: table-cell; height: 50px;}
+		.price__val					{font-size: 22px;}
+			.price__val .currency	{font-size: 16px;}
+
+	/* Кнопка купить */
+	.buy-box						{padding-left: 15px; padding-right: 15px; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-buy						{vertical-align: middle; display: table-cell; height: 50px;}
+	.buy-btn						{width: 100%; padding-left: 15px; background-image: none;}
+}
+
+/* ODESSA OFFER
+=====================================================================================*/
+@media (max-width: 320px){
+	.odessa-offer__title			{font-size: 5em; margin-bottom: 20px;} /* АКЦИЯ */
+	.odessa-offer__description		{margin-bottom: 20px;} /* Скидка */
+
+	/* Form */
+	.odessa-offer__right			{margin-top: 20px;} /* Контейнер формы */
+	.odessa-offer-form__title		{text-align: center;}
+}
+
+
+/* FOOTER
+=====================================================================================*/
+@media (max-width: 320px){
+	.footer-articles-list			{margin-top: 0; padding-top: 0;}
+}

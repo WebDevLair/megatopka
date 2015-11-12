@@ -1,0 +1,97 @@
+/* ШАПКА (верхняя часть) 
+=====================================================================================*/
+@media (min-width: 321px) and (max-width: 767px){
+	.b-phone						{text-align: center;} /* Блок телефона и ссылки "Перезвонить мне" */
+	.b-phone__nummber				{font-size: 20px; text-align: center;} /* Телефонный номер */
+	.b-phone__back-call				{font-size: 20px; text-align: center; display: inline; padding: 0;} /* Перезвонить мне */
+	.b-navigation__address			{font-size: 20px; text-align: center; margin-bottom: 0;} /* Адрес компании */
+	
+	.b-logo							{text-align: center;}
+		.b-logo > a 				{display: block;}
+		.logo						{margin: 0 auto;} /* Изображение логотипа */
+	.b-logo__desc					{font-size: 24px; font-weight: 300; margin-bottom: 0;} /* Подпись под логотипом */
+	.header-menu					{margin-top: 0;}
+
+	.open-navigaton					{margin-top: 20px;} /* Кнопка гамбургер */
+	.header-menu__list				{width: 100%;} /* Выпадающее меню */
+}
+
+/* ШАПКА (Каталог, поиск, корзина) 
+=====================================================================================*/
+@media (min-width: 321px) and (max-width: 767px){
+	/* Прилипающее меню */
+	.header-navbar					{position: static!important;} /* Блок */
+	.catalog						{}
+	.search							{}
+	.cart							{}
+}
+
+
+/* КОРЗИНА (выпадающая)
+=====================================================================================*/
+@media (min-width: 321px) and (max-width: 767px) {
+	.cart-inner						{width: 100%; left: 0;}
+}
+@media (max-width: 360px) {
+    .media-maxw-360                {display: none;}
+}
+
+
+/* ТАБЛИЦА ТОВАРОВ
+=====================================================================================*/
+@media (min-width: 321px) and (max-width: 767px){
+	.wrapp-table-line{
+		height: auto;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	/* Изображение товара */
+	.product-img					{max-height: 80px;}
+
+	/* Описание продукта */
+	.product-title-box				{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-title-tag				{display: block; vertical-align: middle;  display: table-cell; height: 80px;}
+		.title-tag__tag				{margin-top: 5px;}
+
+	/* Мощность и площадь */
+	.power-and-area-box				{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-power-and-area			{display: block; text-align: right; vertical-align: middle; display: table-cell; height: 30px;}
+
+	/* Напряжение */
+	.voltage-box					{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-voltage					{display: block; vertical-align: middle; display: table-cell; height: 30px;}
+
+	/* Цена */
+	.price-box						{display: block; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-price					{display: block; text-align: right; vertical-align: middle; display: table-cell; height: 50px;}
+		.price__val					{font-size: 22px; display: block;}
+			.price__val .currency	{font-size: 16px;}
+
+	/* Кнопка купить */
+	.buy-box						{padding-left: 15px; padding-right: 15px; margin-top: 5px; margin-bottom: 5px; display: table;}
+	.wrapp-buy						{vertical-align: middle; display: table-cell; height: 50px;}
+	.buy-btn						{width: 100%; padding-left: 15px; }
+
+
+}
+
+
+/* ФОРМА "Акция для жителей Одессы"
+=====================================================================================*/
+@media (min-width: 321px) and (max-width: 767px) {
+	.odessa-offer__title			{font-size: 72px} /* АКЦИЯ */
+
+	.odessa-offer__right			{max-width: 320px; margin: 0 auto;} /* Контейнер формы */
+}
+
+
+/* FOOTER MAPS YANDEX
+=====================================================================================*/
+@media (min-width: 321px) and (max-width: 767px) {
+	.footer-articles-list			{margin-top: 0; padding-top: 0;}
+	.b-map-footer					{height: auto; border-bottom: none;} /* Контейнер карты */
+	.map-text-box					{display: block; position: static;} /* Блок адреса */
+	.yandex-map						{}
+}
+
